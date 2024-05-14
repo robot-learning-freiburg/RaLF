@@ -1,0 +1,34 @@
+{
+        "expt_type": "r2l_pr",
+        "expt_suffix": "",
+        "load_model": "/home/cattaneo/CODES/radar_lidar_loc/best.pth",
+
+        "use_wandb": false,
+        "wandb_proj": "ralf_validation",
+        "run_suffix": "",
+
+        "rot_aug": 30.0,
+        "trans_aug": 5.0,
+
+        "val_batch_size": 100,
+
+        "device": "cuda",
+
+        "pos_d": 2.0,
+        "neg_d": 80.0,
+        "margin": 1.0,
+
+        "selector_fn": "hard",
+
+        "gamma": 0.8,
+        "max_flow": 300,
+        "iters": 12,
+        "pr": true,      
+        "img_size": 256,
+        "img_res": 0.5,
+
+        "neck_feature_size": 256,
+        "dropout": 0.5,
+        "output_dim": 256
+
+}

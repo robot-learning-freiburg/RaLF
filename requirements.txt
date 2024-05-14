@@ -1,0 +1,14 @@
+git+https://github.com/utiasASRL/pyboreas.git@6b04b229ad7d7e993ea2735285084c0c8bc1d7cc#egg=asrl_pyboreas
+faiss-gpu==1.7.2
+flow-vis==0.1
+ipdb==0.13.11
+matplotlib==3.7.1
+numpy
+open3d==0.16.0
+opencv-python==4.7.0.72
+pandas==1.5.3
+Pillow==9.4.0
+scipy==1.10.1
+torchsummary==1.5.1
+tqdm==4.65.0
+wandb==0.13.11
